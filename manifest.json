@@ -1,0 +1,38 @@
+{
+  "name": "Barbearia Imperial - Sistema de Gestão",
+  "short_name": "Barbearia Imperial",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F4F0E6",
+  "theme_color": "#121212",
+  "description": "Sistema de gestão da Barbearia Imperial: agenda, comandas, clientes, financeiro e estoque, funcionando 100% offline.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
