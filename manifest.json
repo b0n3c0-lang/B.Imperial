@@ -1,38 +1,24 @@
 {
-  "name": "Barbearia Imperial - Sistema de Gestão",
+  "name": "Barbearia Imperial - Agenda e Clientes",
   "short_name": "Barbearia Imperial",
+  "description": "Agenda eletrônica, clientes e contagem de serviços da Barbearia Imperial. Funciona offline.",
+  "lang": "pt-BR",
   "start_url": "./index.html",
   "scope": "./",
-  "id": "/index.html",
+  "id": "./index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#F4F0E6",
   "theme_color": "#121212",
-  "description": "Sistema de gestão da Barbearia Imperial: agenda, comandas, clientes, financeiro e estoque, funcionando 100% offline.",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Novo Agendamento", "short_name": "Agendar", "description": "Criar um novo horário na agenda", "url": "./index.html?action=new-booking", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Clientes", "short_name": "Clientes", "description": "Abrir a lista de clientes", "url": "./index.html?action=clients", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Serviços do mês", "short_name": "Serviços", "description": "Ver os serviços feitos hoje e no mês", "url": "./index.html?action=services", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
   ]
 }
